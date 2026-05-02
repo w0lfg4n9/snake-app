@@ -19,7 +19,7 @@ jobs:
         run: docker build -t myapp:${{ github.sha }} .
 
       - name: Tag image
-        run: docker tag myapp:${{ github.sha }} wolfgangvin/myapp:${{ github.sha }}
+        run: docker tag myapp:${{ github.sha }} wolfgangvin/snake-app:${{ github.sha }}
 
       - name: Push image
-        run: docker push wolfgangvin/myapp:${{ github.sha }}
+        run: docker push wolfgangvin/snake-app:${{ github.sha }}
