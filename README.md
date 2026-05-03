@@ -33,8 +33,6 @@ snake-app/
 ├── index.html
 ├── script.js
 ├── style.css
-├── test.txt
-├── trigger.txt
 
 ---
 
@@ -128,12 +126,12 @@ This project demonstrates:
 
 ## 👨‍💻 Author
 
-Vinayak
+Vinayak Abrol
 
 ---
 
 ## ⭐ Notes
 
-This project is part of a DevOps learning journey focusing on real-world workflows and automation.
+This project is part of a DevOps journey focusing on real-world workflows and automation.
 
 ---
