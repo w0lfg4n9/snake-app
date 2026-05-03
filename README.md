@@ -70,14 +70,14 @@ docker pull wolfgangvin/snake-app:latest
 ### 2. Run the container
 
 ```bash
-docker run -p 8080:80 wolfgangvin/snake-app:latest
+docker run -d -p 8080:80 --name snake-app wolfgangvin/snake-app:latest
 ```
 
 ### 3. Open in browser
 
 ```
 http://localhost:8000
-```
+
 
 ---
 
